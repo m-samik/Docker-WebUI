@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" >
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<head>
+  <meta charset="UTF-8">
+  <title>Docker Start | Web UI</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<div class="contact-us">
+	<center><img src="dockerpythonredhat.png" width="400" height="100"></center>
+	<br>
+  <form action="/cgi-bin/startdocker.py">
+	Enter Your OS Name: <input type='text' name='osname'>
+    	Enter the OS Type : <select name='ostype'>
+	<option>ubuntu:14.04</option>
+	<option>kalilinux/kali-rolling</option>
+	</select>
+	<br>
+	<br>
+    <button type="submit">START</button>
+  </form>
+&nbsp
+<button onclick="document.location='/index.html'">Go Back </button>
+</div>
+
