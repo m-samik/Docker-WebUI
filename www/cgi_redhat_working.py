@@ -15,7 +15,7 @@ o=x.getvalue("command")
 #print(o)
 value=subprocess.getoutput(o)
 print("<b> {} </b>".format(value))
-print("Executed Successfully")
+print("Executed Successfully !!")
 
 print("</pre>")
 print("</body>")
